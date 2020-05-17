@@ -1,4 +1,5 @@
-# Task: Count inversions
+"""Count inversions in a given array"""
+
 import numpy as np
 
 def returnArray():
