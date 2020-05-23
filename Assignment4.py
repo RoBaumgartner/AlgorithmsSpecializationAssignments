@@ -7,7 +7,6 @@ edges = []
 
 def merge(v1, v2, indexV1, indexV2):
   for vertex in edges[indexV2]:
-    print("v1: ", v1, ", v2: ", v2, ", vertex: ", vertex)
     if vertex == v2:
       continue
     vIndex = vertices.index(vertex)
